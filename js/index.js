@@ -1,7 +1,7 @@
 
 function roll(player1className, player2className) {
-    var player1Roll = Math.floor((Math.random() *6)+1 );
-    var player2Roll = Math.floor((Math.random() *6)+1 );
+    const player1Roll = Math.floor((Math.random() *6)+1 );
+    const player2Roll = Math.floor((Math.random() *6)+1 );
 
     changeImg (player1className, player1Roll);
     changeImg (player2className, player2Roll);
